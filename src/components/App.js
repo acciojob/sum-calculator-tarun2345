@@ -10,7 +10,7 @@ const App = () => {
         <h1>Sum calculator</h1>
         <input type="number" placeholder="enter a number"
         onChange={(e)=>{setSum(parseInt(sum)+parseInt(e.target.value))}}/>
-        <p>Sum : {sum}</p>
+        <p>Sum: {sum}</p>
     </div>
   )
 }
